@@ -1,0 +1,58 @@
+body {
+    background-image: linear-gradient(to right, #f15353, rgb(8, 108, 223)); 
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #f15353 ;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+#todo-list {
+    margin-top: 60px;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: #6c757d;
+}
+
+.check-image {
+    width: 20px;
+    height: auto; 
+    margin-left: 5px;
+}
+
+
+#todo-form {
+    margin-bottom: 20px;
+}
+
+.btn {
+    cursor: pointer;
+}
+
+.todo-item {
+    padding: 10px;
+    background-color: #f8f9fa;
+    border-radius: 5px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+}
+
+.todo-item:hover {
+    background-color: #cec1c1;
+}
+
+.todo-item span {
+    flex: 1;
+    margin-right: 10px;
+}
+
+.todo-item button {
+    margin-left: 5px;
+}
+
